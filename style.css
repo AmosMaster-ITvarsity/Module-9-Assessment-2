@@ -1,0 +1,43 @@
+#local{
+    width: 80%;
+    height: 20vh;
+    margin: auto;
+    background-image: url(img/anotherb.gif);
+    background-repeat: repeat-x;
+    background-size: contain;
+    background-position: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 4rem;
+    border-radius: 1.5rem;
+    
+}
+
+#cities{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#cities td{
+    border: 1px solid slategrey;
+    font-family:'Times New Roman', Times, serif;
+    padding: 19px;
+}
+
+#output{
+    width: 60%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+#cities tr:nth-child(even){
+    background-color: darkslategray;
+    color: white;
+}
+
+.col1{
+    width: 15%;
+}
